@@ -2,6 +2,9 @@ controller.menu.onEvent(ControllerButtonEvent.Pressed, function () {
     story.showPlayerChoices("Guide", "Quit", "Settings", "Map")
     if (story.checkLastAnswer("Guide")) {
         game.showLongText("SwiperUp Guide. A GlayTard", DialogLayout.Full)
+        game.showLongText("Page One. Player PowerSkills. Every Character Has His Own PowerSkills every PowerSkills has a unique number of Swipes Every Swipes of these PowerSkills Has His Own Custom Swipes You Can Find PowerSkills in a Box, Character, Loot Pack or Buy It", DialogLayout.Full)
+        game.showLongText("Page Two. Swipes. A Swipe Is A Unique Power On Every Character and PowerSkill, The Swipes Makes A Character or PowerSkill run a Efect in the Enemy or on the Way The Effect of the Swipe Is Diferent in the Way or Enemy where is used, Some Swipes have the power for Delete a Enemy Power", DialogLayout.Full)
+        game.showLongText("Page Tree. Character Swings. a Swing is a Combination of a Swipe with a Generation Skill, A Swing Is More Powerfull than a Swipe and a Generation Skill", DialogLayout.Full)
     }
 })
 let mySprite: Sprite = null
