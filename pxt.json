@@ -1,6 +1,6 @@
 {
     "name": "SwiperUp: Go To The Other Side Of The World",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "",
     "dependencies": {
         "device": "*",
